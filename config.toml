@@ -1,0 +1,71 @@
+################################### Default Configuration ############################
+baseurl = "https://friending.jrbeverly.dev"
+languageCode = "en"
+title = "Friending"
+theme = "vex"
+
+#################################### Plugins ##########################################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700"
+  [[params.plugins.css]]
+  URL = "https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700"
+  [[params.plugins.css]]
+  URL = "css/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "css/themefisher-fonts.css"
+  [[params.plugins.css]]
+  URL = "css/owl.carousel.css"
+  [[params.plugins.css]]
+  URL = "css/magnific-popup.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/jquery-2.1.1.min.js"
+  [[params.plugins.js]]
+  URL = "js/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "js/owl.carousel.min.js"
+  [[params.plugins.js]]
+  URL = "js/jquery.magnific-popup.min.js"
+
+
+###################################### Navigation ######################################
+[menu]
+    
+  [[menu.main]]
+  name = "Application"
+  URL = "https://friending.jrbeverly.dev/app/index.html"
+  weight = 2
+
+  [[menu.main]]
+  name = "User Guide"
+  URL = "https://friending.jrbeverly.dev/guide/index.html"
+  weight = 3
+  
+  [[menu.main]]
+  name = "Manual"
+  URL = "https://github.com/thefriending/manual/releases/latest"
+  weight = 4
+
+  [[menu.main]]
+  name = "GitHub"
+  URL = "https://github.com/thefriending"
+  weight = 5
+
+########################### Default parameters ##########################
+[params]
+logo = "images/favicon.png"
+home = "Home"
+# Meta data
+description = "Friending"
+author = "Jonathan Beverly"
+
+copyright = "Site by [jrbeverly](https://jrbeverly.me)"
+attribution = "Theme by [themefisher](http://www.Themefisher.com) used under [CCBY3](https://creativecommons.org/licenses/by/3.0/) - Alterations to theme have been made"
+
+  # Preloader
+  [params.preloader]
+  enable = true
