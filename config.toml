@@ -37,12 +37,12 @@ theme = "vex"
     
   [[menu.main]]
   name = "Application"
-  URL = "https://friending.jrbeverly.dev/app/index.html"
+  URL = "https://friending.jrbeverly.dev/friending/"
   weight = 2
 
   [[menu.main]]
   name = "User Guide"
-  URL = "https://friending.jrbeverly.dev/guide/index.html"
+  URL = "https://friending.jrbeverly.dev/guide/"
   weight = 3
   
   [[menu.main]]
@@ -57,7 +57,7 @@ theme = "vex"
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/favicon.png"
+logo = "images/favicon.ico"
 home = "Home"
 # Meta data
 description = "Friending"
