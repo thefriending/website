@@ -1,4 +1,4 @@
 [submodule "friending"]
 	path = app/friending
-	url = https://github.com/jrbeverly/friending.git
+	url = https://github.com/thefriending/friending.git
 	branch = master
