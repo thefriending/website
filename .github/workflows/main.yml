@@ -9,7 +9,6 @@ jobs:
         with:
           persist-credentials: false
           submodules: recursive
-
       - name: Install and Build
         uses: docker://docker.io/cardboardci/hugo:latest
         with:
