@@ -11,11 +11,9 @@ jobs:
           submodules: recursive
 
       - name: Install and Build
-        uses: docker://docker.io/cardboardci/hadolint:latest
-        run: |
-          hugo
-          mkdir -p static/
-          cp -r app/friending/src static/friending
+        uses: docker://docker.io/cardboardci/hugo:latest
+        with:
+            args: "bash update_friending.sh"
     #   - name: Deploy
     #     uses: JamesIves/github-pages-deploy-action@releases/v3
     #     with:
