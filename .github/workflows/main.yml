@@ -1,0 +1,24 @@
+name: Build and Deploy
+on:
+    push:
+      branches:
+        - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          submodules: recursive
+      - name: Install and Build
+        uses: docker://docker.io/cardboardci/hugo:latest
+        with:
+            args: "bash update_friending.sh"
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: public
