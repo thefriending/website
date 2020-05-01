@@ -23,7 +23,7 @@ theme = "vex"
 
   # JS Plugins
   [[params.plugins.js]]
-  URL = "js/jquery-2.1.1.min.js"
+  URL = "js/jquery-3.5.0.min.js"
   [[params.plugins.js]]
   URL = "js/bootstrap.min.js"
   [[params.plugins.js]]
