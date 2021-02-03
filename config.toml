@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://friending.jrbeverly.dev"
+baseurl = "https://friending.jrbeverly.me"
 languageCode = "en"
 title = "Friending"
 theme = "vex"
@@ -37,12 +37,12 @@ theme = "vex"
     
   [[menu.main]]
   name = "Application"
-  URL = "https://friending.jrbeverly.dev/friending/"
+  URL = "./friending/"
   weight = 2
 
   [[menu.main]]
   name = "User Guide"
-  URL = "https://friending.jrbeverly.dev/guide/"
+  URL = "./guide/"
   weight = 3
   
   [[menu.main]]
