@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Friending</title>
-    <link>https://friending.jrbeverly.dev/</link>
+    <link>https://friending.jrbeverly.me/</link>
     <description>Recent content on Friending</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="https://friending.jrbeverly.dev/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://friending.jrbeverly.me/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
