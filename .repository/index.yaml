@@ -1,0 +1,16 @@
+slug: website
+description: The source for the landing page of Friending
+project: thefriending
+namespace:
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2019
+topics: |-
+  [
+    "html",
+    "website",
+    "landing-page"
+  ]
